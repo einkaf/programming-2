@@ -21,6 +21,7 @@ public class Main {
         server.setExecutor(null);
         server.start();
         System.out.printf("Server is running on http://localhost:%d", SERVER_PORT);
+        System.out.println("test");
     }
 
     private static void registerController(HttpServer server, String path, HttpHandler handler) {
